@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif; 
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
 }
 
 
@@ -20,6 +21,7 @@ h2 {
 
 h3 {
     margin: 0;
+    font-size: 24px;
 }
 
 p {
@@ -40,7 +42,6 @@ button {
     margin: 0;
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
 }
 
 a:link {
@@ -66,7 +67,6 @@ a:hover {
 .nav{
     width: 100%;
     background-color: #1f2937;
-    font-size: 18px;
     color: #e5e7eb;
     display: flex;
     justify-content: center;
@@ -90,7 +90,6 @@ a:hover {
 }
 
 .logoText {
-    font-size: 24px;
     color: #f9faf8;
 }
 
@@ -105,7 +104,6 @@ a:hover {
 .hero {
     width: 100%;
     background-color: #1f2937;
-    font-size: 18px;
     color: #e5e7eb;
     display: flex;
     padding: 16px;
@@ -124,4 +122,54 @@ a:hover {
 .heroImg {
     width: 360px;
     flex: 0 1 auto;
+}
+
+.featured {
+    text-align: center;
+}
+
+.imageCards {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.card img {
+    flex: auto;
+    max-width: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.description {
+    color: #1f2937;
+}
+
+.pullQuote {
+    width: 100%;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pullQuote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.pullQuote h3 {
+    align-self: flex-end;
+    display: list-item;
+    list-style-type: "- ";
 }
